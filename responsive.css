@@ -1,0 +1,118 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+/* Base styles for the carousel section */
+.carousel-caption {
+    margin-top: -30px;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 575px) {
+    .carousel-caption {
+        margin-top: 10px; /* Adjust margin for very small screens */
+        text-align: center; /* Center align text */
+    }
+    .carousel-caption h1 {
+        font-size: 24px; /* Adjust font size for small screens */
+    }
+    .carousel-caption p {
+        font-size: 14px; /* Adjust font size for small screens */
+    }
+    .btn-primary {
+        font-size: 14px; /* Adjust button font size for small screens */
+        padding: 10px 20px; /* Adjust button padding for small screens */
+    }
+    .img-box figure img {
+        width: 150px; /* Adjust image width for small screens */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: 0; /* Center image */
+        margin-top: 20px; /* Adjust top margin */
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .carousel-caption {
+        margin-top: 0; /* Adjust margin for small screens */
+        text-align: center; /* Center align text */
+    }
+    .carousel-caption h1 {
+        font-size: 28px; /* Adjust font size */
+    }
+    .carousel-caption p {
+        font-size: 16px; /* Adjust font size */
+    }
+    .btn-primary {
+        font-size: 16px; /* Adjust button font size */
+        padding: 12px 24px; /* Adjust button padding */
+    }
+    .img-box figure img {
+        width: 200px; /* Adjust image width */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: 0; /* Center image */
+        margin-top: 20px; /* Adjust top margin */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption {
+        margin-top: -20px; /* Adjust margin */
+        text-align: left; /* Align text to left */
+    }
+    .carousel-caption h1 {
+        font-size: 32px; /* Adjust font size */
+    }
+    .carousel-caption p {
+        font-size: 18px; /* Adjust font size */
+    }
+    .btn-primary {
+        font-size: 18px; /* Adjust button font size */
+        padding: 14px 28px; /* Adjust button padding */
+    }
+    .img-box figure img {
+        width: 250px; /* Adjust image width */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: 20px; /* Adjust left margin */
+        margin-top: 30px; /* Adjust top margin */
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-caption {
+        margin-top: -30px; /* Default margin for larger screens */
+        text-align: left; /* Align text to left */
+    }
+    .carousel-caption h1 {
+        font-size: 36px; /* Default font size */
+    }
+    .carousel-caption p {
+        font-size: 20px; /* Default font size */
+    }
+    .btn-primary {
+        font-size: 20px; /* Default button font size */
+        padding: 16px 32px; /* Default button padding */
+    }
+    .img-box figure img {
+        width: 300px; /* Default image width */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: 40px; /* Default left margin */
+        margin-top: 40px; /* Default top margin */
+    }
+    .img-box {
+        text-align: center; /* Center the image inside the box */
+    }
+}

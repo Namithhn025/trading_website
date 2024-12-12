@@ -270,6 +270,19 @@ button {
      color: #fff;
 }
 
+.ad-container {
+    width: 100%; /* Ensure the ad takes up the full width of the container */
+    max-width: 1000px; /* Optionally set a max width */
+    margin: 20px auto; /* Centers the ad horizontally */
+    padding: 0; /* Remove any padding */
+    text-align: center; /* Ensures the ad is centered */
+}
+
+.adsbygoogle {
+    display: block; /* Ensure the ad is displayed as a block element */
+    margin: 0 auto; /* Center the ad within its container */
+}
+
 .small_main_heading {
      margin-top: 25px;
      float: left;
